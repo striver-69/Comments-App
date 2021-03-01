@@ -9,12 +9,8 @@ const App=()=>{
       <ApprovalCard>
         <CommentDetail author="Ram" timeAgo="Today at 4:45PM" content="Nice blog post" />
       </ApprovalCard>
-      <ApprovalCard>
-        <CommentDetail author="Shyam" timeAgo="Today at 5:45PM" content="I like the subject" />
-      </ApprovalCard>
-      <ApprovalCard>
-        <CommentDetail author="Gita" timeAgo="Today at 6:45PM" content="playing with React" />
-      </ApprovalCard>
+      <CommentDetail author="Shyam" timeAgo="Today at 5:45PM" content="I like the subject" />
+      <CommentDetail author="Gita" timeAgo="Today at 6:45PM" content="playing with React" />
     </div>
   )
 }
